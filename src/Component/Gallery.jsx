@@ -14,26 +14,23 @@ export default function Gallery() {
 
     return (
         <Box sx={{ p: 2 }}>
-            {/* Top Section with Buttons */}
             <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 2 }}>
-                {/* Left-aligned "Gallery" Button */}
                 <Button
                     variant="contained"
                     sx={{
-                        backgroundColor: 'black', // Black background
+                        backgroundColor: 'black', 
                         color: 'white',
                         ...boxShadowStyle,
                     }}
                 >
                     Gallery
                 </Button>
-
-                {/* Right-aligned Buttons */}
+                
                 <Box>
                     <Button
                         variant="contained"
                         sx={{
-                            backgroundColor: '#363C43', // Component color
+                            backgroundColor: '#363C43',
                             color: 'white',
                             mr: 1,
                             ...boxShadowStyle,
@@ -43,7 +40,7 @@ export default function Gallery() {
                     </Button>
                     <IconButton
                         sx={{
-                            backgroundColor: '#363C43', // Component color
+                            backgroundColor: '#363C43', 
                             color: 'white',
                             mr: 1,
                             ...boxShadowStyle,
@@ -53,7 +50,7 @@ export default function Gallery() {
                     </IconButton>
                     <IconButton
                         sx={{
-                            backgroundColor: '#363C43', // Component color
+                            backgroundColor: '#363C43', 
                             color: 'white',
                             ...boxShadowStyle,
                         }}
@@ -63,7 +60,7 @@ export default function Gallery() {
                 </Box>
             </Box>
 
-            {/* Image Section */}
+            
             <Grid container spacing={2} justifyContent="center">
                 <Grid item xs={4}>
                     <Box
