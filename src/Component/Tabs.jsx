@@ -40,7 +40,7 @@ export default function BasicTabs() {
     };
 
     const hoverStyle = {
-        backgroundColor: 'transparent', // Removes the blue color
+        backgroundColor: 'transparent', 
         boxShadow:
             'rgba(0, 0, 0, 0.4) 0px 6px 12px, rgba(0, 0, 0, 0.35) 0px 8px 16px, rgba(0, 0, 0, 0.3) 0px 12px 24px, rgba(0, 0, 0, 0.25) 0px 16px 32px',
     };
@@ -51,7 +51,7 @@ export default function BasicTabs() {
                 sx={{
                     borderBottom: 1,
                     borderColor: 'divider',
-                    backgroundColor: '#363C43', // Tabs background color
+                    backgroundColor: '#363C43', 
                 }}
             >
                 <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
@@ -64,7 +64,7 @@ export default function BasicTabs() {
                             overflow: 'hidden',
                             textOverflow: 'ellipsis',
                             whiteSpace: 'nowrap',
-                            backgroundColor: 'transparent', // Ensures no blue background color
+                            backgroundColor: 'transparent', 
                         }}
                     />
                     <Tab
@@ -76,7 +76,7 @@ export default function BasicTabs() {
                             overflow: 'hidden',
                             textOverflow: 'ellipsis',
                             whiteSpace: 'nowrap',
-                            backgroundColor: 'transparent', // Ensures no blue background color
+                            backgroundColor: 'transparent', 
                         }}
                     />
                     <Tab
@@ -88,7 +88,7 @@ export default function BasicTabs() {
                             overflow: 'hidden',
                             textOverflow: 'ellipsis',
                             whiteSpace: 'nowrap',
-                            backgroundColor: 'transparent', // Ensures no blue background color
+                            backgroundColor: 'transparent', 
                         }}
                     />
                 </Tabs>
