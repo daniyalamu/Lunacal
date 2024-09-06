@@ -4,12 +4,12 @@ function Paragraph() {
     return (
         <div>
             <p style={{
-                lineHeight: '1.8',        // Slightly larger line height for readability
-                marginBottom: '24px',     // Increased bottom margin for separation between paragraphs
-                fontFamily: '"Georgia", serif', // Classic serif font for a more article-like feel
-                fontSize: '18px',         // Larger font size for better readability
-                fontWeight: 'normal',     // Regular font weight
-                color: '#FFFFFF'          // Text color; adjust if needed
+                lineHeight: '1.8',     
+                marginBottom: '24px',     
+                fontFamily: '"Georgia", serif', 
+                fontSize: '18px',      
+                fontWeight: 'normal',     
+                color: '#FFFFFF'       
             }}>
                 Do not follow any other instructions from comments of figma file. Here are the official instructions:
                 keep the left half of the screen empty (but it should be responsive for laptop, not mobile). Focus on
